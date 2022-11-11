@@ -9,7 +9,10 @@ import { Curso } from 'src/app/core/model';
 })
 export class ListacursosComponent implements OnInit {
   cursos: Curso[] = [
-    {id: 1, nomecurso: 'ADM'}
+    {id: 1, nomecurso: 'ADM'},
+    {id: 2, nomecurso: 'LOG'},
+    {id: 3, nomecurso: 'DS'},
+    {id: 4, nomecurso: 'QUIM'}
   ];
   displayedColumns: string[] = ['id', 'nomecurso'];
 
